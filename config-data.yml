@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: data-service #服务的名字
+#  rabbitmq:  #消息队列配置 包含地址、端口、账号、密码
+#    host: 127.0.0.1
+#    port: 5672
+#    username: admin
+#    password: Huagao705
+
+
+#  mongodb:
+#    uri: mongodb://name:pass@localhost:27017/database?maxPoolSize=256
+  redis:
+    database: 0
+    host: 127.0.0.1     #redis ip
+    port: 6379              #redis 端口
+    password: 123           #redis数据库密码
+    timeout: 500
+    pool:
+      max-active: 20 # 连接池最大连接数（使用负值表示没有限制
+      max-wait: -1   # 连接池最大阻塞等待时间（使用负值表示没有限制
+      max-idle: 8      # 连接池中的最大空闲连接
+      min-idle: 0       # 连接池中的最小空闲连接
+
+
+  datasource: #sqlserver配置 其中可以改的是 ip、数据库名、username、password
+    url: jdbc:sqlserver://127.0.0.1:1433;database=SewagePlatform
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    username: sa
+    password: 123
+
+#redis启动开关
+redis:
+  switch: on
+
+mybatis:
+  mapper-locations: classpath:/mapper/*Mapper.xml
+  type-aliases-package: com.middleware.dataProcess.domain
