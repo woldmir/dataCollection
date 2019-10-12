@@ -7,21 +7,14 @@ spring:
 #    username: admin
 #    password: Huagao705
 
-
 #  mongodb:
 #    uri: mongodb://name:pass@localhost:27017/database?maxPoolSize=256
-
-
 
   datasource: #sqlserver配置 其中可以改的是 ip、数据库名、username、password
     url: jdbc:sqlserver://127.0.0.1:1433;database=SewagePlatform
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
     username: sa
     password: 123
-
-#redis启动开关
-redis:
-  switch: on
 
 mybatis:
   mapper-locations: classpath:/mapper/*Mapper.xml
