@@ -35,4 +35,4 @@ redis:
 
 mybatis:
   mapper-locations: classpath:/mapper/*Mapper.xml
-  type-aliases-package: com.middleware.dataProcess.domain
+  type-aliases-package: com.middleware.data.domain
