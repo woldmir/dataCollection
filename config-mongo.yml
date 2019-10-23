@@ -1,5 +1,5 @@
 spring:
- data:
+  data:
     mongodb:
       mongoswitch: on  #mongodb启动开关 on 启动  off 停用
       databasename: TagRealData   #mongodb 数据库名称
