@@ -1,0 +1,6 @@
+spring:
+ data:
+    mongodb:
+      mongoswitch: on  #mongodb启动开关 on 启动  off 停用
+      databasename: TagRealData   #mongodb 数据库名称
+      uri: mongodb://127.0.0.1:27017/${spring.data.mongodb.databaseName}  #mongodb地址
