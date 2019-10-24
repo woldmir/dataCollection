@@ -1,0 +1,7 @@
+    
+spring:
+  datasource: #sqlserver配置 其中可以改的是 ip、数据库名、username、password
+    url: jdbc:sqlserver://localhost:1433;database=SewagePlatform
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    username: sa
+    password: 123
