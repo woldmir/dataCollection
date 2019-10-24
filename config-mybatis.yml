@@ -1,0 +1,3 @@
+mybatis:
+  mapper-locations: classpath:/mapper.sqlserver/*Mapper.xml
+  type-aliases-package: com.middleware.data.domain
