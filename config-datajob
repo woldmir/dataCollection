@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: datajob-service #服务的名字
