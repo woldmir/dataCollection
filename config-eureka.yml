@@ -1,5 +1,6 @@
 eureka:
   instance:
+    perferIpAddress: true
     hostname: 127.0.0.1
   client:
     #表示是否将自己注册到Eureka Server，默认为true。
