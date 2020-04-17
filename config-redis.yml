@@ -1,5 +1,6 @@
 redis:
   switch: on
+  tagHashName: Tag
 spring:
   redis:
     database: 0
