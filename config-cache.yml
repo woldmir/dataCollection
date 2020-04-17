@@ -1,0 +1,6 @@
+initData:
+  url: http://203.86.74.195:8007/api/web/commonDataCollection/queryAllTagInfoForDataCollection
+
+spring: 
+  application:
+    name: cache-service
