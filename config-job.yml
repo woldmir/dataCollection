@@ -1,0 +1,8 @@
+mq:
+  pushCount: 1
+
+spring:
+  application:
+    name: job-Service
+
+minimum_interval_data_Cycle: 0 0/1 * * * ? *
