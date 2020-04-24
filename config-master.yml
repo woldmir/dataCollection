@@ -1,3 +1,7 @@
 spring: 
   application:
     name: master-service
+heartbeat_Cycle: 0/30 * * * * ? *
+
+RemoveDataTime: 30000  #单位毫秒
+DeleteTempDataTime: 30000 #单位毫秒
