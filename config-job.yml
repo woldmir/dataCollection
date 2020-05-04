@@ -1,5 +1,5 @@
 mq:
-  pushCount: 1
+  pushCount: 10000
 
 spring:
   application:
