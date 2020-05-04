@@ -6,3 +6,4 @@ spring:
     name: job-Service
 
 minimum_interval_data_Cycle: 0 0/2 * * * ? *
+device_data_Cycle: 0 0/2 * * * ? *
