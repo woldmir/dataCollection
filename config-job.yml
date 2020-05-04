@@ -5,4 +5,4 @@ spring:
   application:
     name: job-Service
 
-minimum_interval_data_Cycle: 0 0/1 * * * ? *
+minimum_interval_data_Cycle: 0 0/5 * * * ? *
