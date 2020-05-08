@@ -1,5 +1,5 @@
 initData:
-  url: http://192.168.2.57:1022/tag/getTags
+  url: http://192.168.2.57:9022/tag/getTags
 
 spring: 
   application:
