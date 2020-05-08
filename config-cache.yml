@@ -1,5 +1,5 @@
 initData:
-  url: http://203.86.74.195:8007/api/web/commonDataCollection/queryAllTagInfoForDataCollection
+  url: http://192.168.2.57:1022/tag/getTags
 
 spring: 
   application:
