@@ -8,6 +8,6 @@ spring:
 minimum_interval_data_Cycle: 0/10 * * * * ? *
 minimum_interval_data_Switch: true
 device_data_Cycle: 0 0/2 * * * ? *
-device_data_Switch: true
+device_data_Switch: false
 subscribe_data_tag_Cycle: 0/10 * * * * ? *
 subscribe_data_tag_Switch: true
