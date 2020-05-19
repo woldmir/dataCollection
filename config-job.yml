@@ -6,4 +6,8 @@ spring:
     name: job-Service
 
 minimum_interval_data_Cycle: 0/10 * * * * ? *
+minimum_interval_data_Switch: on
 device_data_Cycle: 0 0/2 * * * ? *
+device_data_Switch: on
+subscribe_data_tag_Cycle: 0/10 * * * * ? *
+subscribe_data_tag_Switch: on
