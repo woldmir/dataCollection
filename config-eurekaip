@@ -1,4 +1,0 @@
-eureka:
-  instance:
-    preferIpAddress: true
-    instance-id: 127.0.0.1:${server.port}
